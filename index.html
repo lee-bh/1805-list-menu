@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>list 활용해서 메뉴 만들기</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<style>
+		a:link, a:visited, a:active{ text-decoration: none; color:black; }
+		nav{ width:1000px; margin:auto; height:44px; }
+		nav #logo { width:200px;height:44px; text-align: center; line-height: 44px;float:left;}
+		nav #logo a{display:block; height:44px;}
+		nav #logo a:hover{background: black; color:white;}
+		nav #mainNav{  float:right; margin:0; padding:0;}
+		nav #mainNav li{float:left; width:130px; list-style: none; height:44px;}
+		nav #mainNav a{display: block; line-height: 44px; text-align: center; }
+		nav #mainNav a:hover{background:yellow;color:black;}
+
+	</style>
+</head>
+<body>
+	<nav>
+		<div id="logo">
+			<a href="#">listExample</a>
+		</div>
+		<ul id="mainNav">
+			<li class="menuItem">
+				<a href="http://naver.com" target="_blank">naver</a>
+			</li>
+			<li class="menuItem">
+				<a href="#" target="_blank">daum</a>
+			</li>
+			<li class="menuItem">
+				<a href="#" target="_blank">facebook</a>
+			</li>
+			<li class="menuItem">
+				<a href="#" target="_blank">twitter</a>
+			</li>
+		</ul>
+	</nav>
+
+</body>
+</html>
